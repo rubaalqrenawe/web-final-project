@@ -80,12 +80,7 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.content-section img {
-  width: 250px;
-  height: 250px;
-  margin-right: 30px;
-  margin-bottom: 65px;
-}
+
 
 .content-section p {
   margin: 0;
@@ -732,8 +727,11 @@ section {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 75%;
+  /* width: 70%;
+  height: 60%; */
   margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .download-button {
@@ -750,9 +748,10 @@ section {
   justify-content: right;
   background-color: #ffffff;
   color: #323232;
-  padding: 0px 38px 0px 38px;
+  width: max-content;
+  padding: 0px 25px 0px 25px;
   text-align: center;
-  line-height: 35px;
+  line-height: 30px;
   text-decoration: none;
   font-size: 13px;
   font-weight: bold;
@@ -767,4 +766,11 @@ section {
 .content-section-overlay img {
   max-width: 100%;
   height: auto;
+}
+.content-section img {
+  width: 220px;
+  height: 220px;
+  margin-right: 35px;
+  margin-top:10px;
+  margin-bottom: 60px;
 }
