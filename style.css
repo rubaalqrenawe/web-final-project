@@ -749,7 +749,7 @@ section {
   background-color: #ffffff;
   color: #323232;
   width: max-content;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 55px 0px 55px;
   text-align: center;
   line-height: 30px;
   text-decoration: none;
@@ -768,9 +768,9 @@ section {
   height: auto;
 }
 .content-section img {
-  width: 220px;
-  height: 220px;
-  margin-right: 35px;
+  width: 280%;
+  height: 250px;
+  margin-right: 40px;
   margin-top:10px;
-  margin-bottom: 60px;
+  margin-bottom:20px;
 }
